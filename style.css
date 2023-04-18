@@ -1,8 +1,27 @@
+*{
+    margin:0;
+    padding:0;
+}
+
 body{
     background-color: aliceblue;
 }
 
 .cabecalho{
     display: flex;
+    align-items: flex-end;
     justify-content: space-around;
+}
+
+.cabecalho-imagem {
+    width: 80%;
+    padding: 12px;
+}
+
+.lista-cabecalho {
+    display:inline-block;
+    padding: 30px;
+    color: aliceblue;
+    font-size: 15px;
+    font-weight: bolder;
 }
